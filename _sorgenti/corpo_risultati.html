@@ -1,0 +1,50 @@
+<section class="page-hero">
+  <div class="page-hero__slash" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> / Risultati</div>
+    <h1>Risultati e<br>calendario</h1>
+    <p>Prossima gara, archivio dei risultati e widget ufficiali del campionato.</p>
+  </div>
+</section>
+
+<section class="section section--panna">
+  <div class="wrap">
+    <div class="grid" style="grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:start">
+      <div class="match-card reveal" data-render="prossima" style="background:linear-gradient(165deg,#0B2C6B,#061631);border-color:rgba(255,255,255,.14);color:#fff"></div>
+      <div class="widget reveal" data-delay="1">
+        <div class="widget__head"><h3>Prossima partita (Tuttocampo)</h3><span class="badge">Live</span></div>
+        <iframe data-tc="ProssimaPartita" title="Prossima partita" loading="lazy" scrolling="no" style="min-height:420px"></iframe>
+        <div class="widget__note">Il riquadro si popola automaticamente appena il calendario viene pubblicato.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--bianco">
+  <div class="wrap">
+    <div class="flex" style="justify-content:space-between;align-items:flex-end">
+      <div class="section-head" style="margin-bottom:18px">
+        <span class="kicker">Archivio</span>
+        <h2>Tutte le partite</h2>
+        <p class="muted">Ordinate dalla piu&rsquo; recente. Verde vittoria, giallo pareggio, rosso sconfitta.</p>
+      </div>
+      <div class="form-dots" data-render="forma" style="margin-bottom:26px"></div>
+    </div>
+    <div class="grid" data-render="partite"></div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Tuttocampo</span>
+      <h2>Risultati del girone</h2>
+      <p>Tutti i risultati di giornata delle altre squadre del <span data-site="girone"></span>.</p>
+    </div>
+    <div class="widget">
+      <div class="widget__head"><h3>Risultati di giornata</h3><span class="badge">Live</span></div>
+      <iframe data-tc="Risultati" title="Risultati del girone" loading="lazy" scrolling="no" style="min-height:640px"></iframe>
+      <div class="widget__note">Dati forniti da Tuttocampo.</div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+{
+  "name": "Real Olimpia Terlizzi",
+  "short_name": "Real Olimpia",
+  "description": "Sito ufficiale del Real Olimpia Terlizzi, Prima Categoria Puglia.",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#061631",
+  "theme_color": "#0B2C6B",
+  "lang": "it",
+  "icons": [
+    { "src": "assets/images/logo.png", "sizes": "120x120", "type": "image/png", "purpose": "any" }
+  ]
+}

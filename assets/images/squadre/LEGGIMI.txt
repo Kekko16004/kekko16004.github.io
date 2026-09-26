@@ -1,0 +1,18 @@
+LOGHI DELLE SQUADRE AVVERSARIE
+
+Salva qui i loghi in PNG con il nome della squadra tutto minuscolo,
+spazi e apostrofi sostituiti da trattini. Esempi:
+
+  Olimpia Bitonto        -> olimpia-bitonto.png
+  San Giovanni Rotondo   -> san-giovanni-rotondo.png
+  Real Zapponeta         -> real-zapponeta.png
+  Triggiano              -> triggiano.png
+  Passion Sport Manfredonia -> passion-sport-manfredonia.png
+
+Il sito li cerca da solo: se il file non esiste prova l'indirizzo indicato in
+LOGHI_SQUADRE (in assets/js/data.js) e, se manca anche quello, disegna un
+tondo con le iniziali. Non serve fare nulla per evitare immagini rotte.
+
+Per prendere il logo da Tuttocampo: apri la pagina del girone, click destro
+sullo stemma della squadra, "Copia indirizzo immagine" e incollalo in
+LOGHI_SQUADRE, oppure salva l'immagine in questa cartella col nome giusto.

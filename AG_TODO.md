@@ -1,0 +1,4 @@
+- [~~] url tuttocampo schema + partite (100%)
+- [~~] click partita solo tuttocampo app.js (100%)
+- [~~] test + verifica (100%)
+- [~~] sfondo hero imagebg.png con gradient e griglia (100%)

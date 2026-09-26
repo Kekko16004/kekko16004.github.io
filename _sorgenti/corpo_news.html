@@ -1,0 +1,30 @@
+<section class="page-hero">
+  <div class="page-hero__slash" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> / News</div>
+    <h1>News<br>rossoblu</h1>
+    <p>Notizie raccolte automaticamente da TerlizziViva e TerlizziLive. Puoi passare dal
+       filtro sulla squadra a tutte le notizie sportive della citta&rsquo;.</p>
+  </div>
+</section>
+
+<section class="section section--panna">
+  <div class="wrap">
+    <div class="flex" style="justify-content:space-between;margin-bottom:26px">
+      <p class="muted" style="margin:0;font-size:.86rem" data-render="notizie-stato"></p>
+      <button class="btn btn--sm btn--blu" type="button" data-render="notizie-toggle" aria-pressed="true">Mostra tutto lo sport</button>
+    </div>
+    <div class="grid grid--3" data-render="notizie" data-limite="24"></div>
+    <div class="card mt-l">
+      <div class="card__body">
+        <h3 class="card__title">Come funziona</h3>
+        <p class="muted">
+          Le notizie arrivano dai feed pubblici delle testate locali e vengono filtrate in tempo reale.
+          Nel file <code>assets/js/data.js</code>, dentro <code>CONFIG.news</code>, puoi decidere se mostrare
+          solo gli articoli che parlano del Real Olimpia (<code>soloRealOlimpia</code>), quante notizie
+          visualizzare, quali parole chiave usare e quali fonti interrogare.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
